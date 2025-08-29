@@ -18,10 +18,10 @@ int main() {
         // Set high
         gpio_put(LED_PIN, 1);
         // Sleep
-        sleep_ms(250);
+        sleep_ms(200);
         // Set low
         gpio_put(LED_PIN, 0);
         // Sleep
-        sleep_ms(250);
+        sleep_ms(800);
     }
 }
